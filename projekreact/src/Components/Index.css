@@ -1,0 +1,4168 @@
+/* navbar */
+.navbar {
+    position: fixed;
+    top: -9px;
+    left: 0px;
+    width: 100%;
+    height: 78px;
+    text-align: left;
+    font-size: 15px;
+    color: #fff;
+    background-color: rgb(255, 140, 0) ;
+    z-index: 1000;
+}
+.rectangle-container {
+    position: absolute;
+    top: 35px;
+    left: 419px;
+    width: 100%;
+    height: 25px;
+}
+
+.frame-child {
+    position: absolute;
+    top: -26px;
+    left: 100%;
+    background-color: rgba(255, 140, 0, 0.77);
+    width: 100%;
+    height: 68px;
+}
+
+.masukdaftar {
+    position: absolute;
+    top: -2px;
+    left: 492px;
+    display: inline-block;
+    width: 105px;
+    height: 22px;
+    cursor: pointer;
+}
+.menu {
+    position: absolute;
+    top: 0px;
+    left: 137px;
+    display: inline-block;
+    width: 51px;
+    height: 25px;
+    cursor: pointer;
+}
+.tentang-kami{
+    position: absolute;
+    top: 0px;
+    left: 236px;
+    display: inline-block;
+    width: 111px;
+    height: 22px;
+    cursor: pointer;
+}
+.profil {
+    position: absolute;
+    top: 0px;
+    left: 394px;
+    display: inline-block;
+    width: 51px;
+    height: 22px;
+    cursor: pointer;
+}
+.halaman-utama {
+    position: absolute;
+    top: 0px;
+    left: -37px;
+    display: inline-block;
+    color: #fff5e9;
+    width: 137px;
+    height: 22px;
+    cursor: pointer;
+}
+.savor-flavor-putih {
+    position: absolute;
+    top: -10px;
+    left: -373px;
+    width: 180px;
+    height: 42px;
+    object-fit: cover;
+}
+
+.search-icon {
+    width: 22px;
+    position: relative;
+    height: 22px;
+    object-fit: cover;
+}
+.cari {
+    position: relative;
+}
+.search-parent {
+    position: absolute;
+    top: 20px;
+    left: 1102px;
+    border-radius: 15px;
+    background-color: #fff;
+    width: 274px;
+    height: 47px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    gap: 5px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.5);
+}
+/* end of navbar */
+
+/* footer */
+.footer {
+    position:absolute;
+   
+    left: 0px;
+    width: 100%;
+    height: 91px;
+    font-size: 26px;
+    color: #fff;
+}
+.footer-child {
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    background-color: #ff8c00;
+    width: 100%;
+    height: 88px;
+}
+.sosmed {
+    position: absolute;
+    top: 32px;
+    left: 1352px;
+    width: 24px;
+    height: 24px;
+}
+.savorflavor {
+    position: absolute;
+    top: 32px;
+    left: 45px;
+}
+.copyright-2024-container {
+    width: 483px;
+    position: relative;
+    line-height: 22px;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.copyright {
+    position: absolute;
+    top: 20px;
+    left: 474px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.privacy-policy {
+    text-decoration: underline;
+}
+.facebook-1-icon {
+    position: absolute;
+    top: 32px;
+    left: 1192px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    filter: invert(100%);
+}
+.twitter-1-icon {
+    position: absolute;
+    top: 32px;
+    left: 1232px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    filter: invert(100%);
+}
+.instagram-1-icon {
+    position: absolute;
+    top: 32px;
+    left: 1272px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    filter: invert(100%);
+}
+.linkedin-1-icon {
+    position: absolute;
+    top: 32px;
+    left: 1312px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    filter: invert(100%);
+}
+.youtube-1-icon {
+    position: absolute;
+    top: 32px;
+    left: 1352px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    filter: invert(100%);
+}
+/* end of footer */
+
+/* Home */
+
+.home {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 3376px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+    font-family: Inter;
+    top: -44px;
+    left: -8px;
+}
+
+.home-child {
+    position: absolute;
+    top: 2012px;
+    left: 70px;
+    border-radius: 10px;
+    background-color: #ff8c00;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 1313px;
+    height: 218px;
+}
+.home-item {
+    position: absolute;
+    top: 2318px;
+    left: 89px;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    width: 376px;
+    height: 927px;
+}
+.home-inner {
+    position: absolute;
+    top: 3056px;
+    left: 479px;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    width: 872px;
+    height: 189px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 2687px;
+    left: 480px;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    width: 281px;
+    height: 356px;
+}
+.home-child1 {
+    position: absolute;
+    top: 2318px;
+    left: 1051px;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    width: 300px;
+    height: 356px;
+}
+.home-child2 {
+    position: absolute;
+    top: 2687px;
+    left: 777px;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    width: 574px;
+    height: 356px;
+}
+.home-child3 {
+    position: absolute;
+    top: 2318px;
+    left: 480px;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    width: 557px;
+    height: 356px;
+}
+
+.twitter {
+    position: absolute;
+    top: 1708px;
+    left: 819px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.group-icon {
+    position: absolute;
+    top: 2363px;
+    left: 667px;
+    width: 178px;
+    height: 26px;
+}
+.home-child4 {
+    position: absolute;
+    top: 2738px;
+    left: 962px;
+    width: 178px;
+    height: 26px;
+}
+.bika-ambon-rian {
+    position: absolute;
+    top: 2422px;
+    left: 552px;
+    font-size: 35px;
+    line-height: 30px;
+    display: inline-block;
+    width: 383px;
+    height: 35px;
+}
+.ombus-ombus-no-1 {
+    position: absolute;
+    top: 2798px;
+    left: 875px;
+    font-size: 30px;
+    line-height: 30px;
+    display: inline-block;
+    width: 383px;
+    height: 35px;
+}
+.rectangle-icon {
+    position: absolute;
+    top: 1595px;
+    left: 912px;
+    border-radius: 20px;
+    width: 464px;
+    height: 36px;
+}
+.jl-sumatera-no78 {
+    position: absolute;
+    top: 2490px;
+    left: calc(50% - 202px);
+    font-size: 26px;
+    font-weight: 500;
+    display: inline-block;
+    width: 464px;
+    height: 86px;
+}
+.x7fjc2-jl-sm {
+    margin: 0;
+}
+.x7fjc2-jl-sm-container {
+    position: absolute;
+    top: 2870px;
+    left: calc(50% + 70px);
+    font-size: 26px;
+    font-weight: 500;
+    display: inline-block;
+    width: 534px;
+    height: 121px;
+}
+.mie-gomak-merupakan-salah {
+    position: absolute;
+    top: 1627px;
+    left: calc(50% - 150px);
+    font-size: 28px;
+    text-align: justify;
+    display: inline-block;
+    width: 750px;
+    height: 248px;
+}
+.inspirasi-wisata-kuliner {
+    position: absolute;
+    top: 2045px;
+    left: 243px;
+    font-size: 48px;
+    font-family: Montserrat;
+    color: #fff;
+    text-align: left;
+}
+.banyak-hal-yang {
+    position: absolute;
+    top: 2119px;
+    right: 142px;
+    font-size: 30px;
+    line-height: 30px;
+    color: #fff;
+    display: inline-block;
+    width: 1155px;
+    height: 66px;
+}
+.frame-div {
+    position: absolute;
+    top: 1158px;
+    left: 68px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.kuliner-khas-sumatera {
+    position: absolute;
+    top: 679px;
+    left: 358px;
+    font-size: 32px;
+    display: inline-block;
+    width: 728px;
+    height: 62px;
+}
+.home-child5 {
+    position: absolute;
+    top: 1192px;
+    left: 72px;
+    border-radius: 10px;
+    width: 1297px;
+    height: 283px;
+}
+.sumatera-utara-adalah {
+    position: absolute;
+    top: 1232px;
+    left: calc(50% - 318px);
+    font-size: 23.9px;
+    color: #090808;
+    text-align: left;
+    display: inline-block;
+    width: 936px;
+    height: 202px;
+}
+.sumatera-utara {
+    position: absolute;
+    top: 1402px;
+    left: 121px;
+    font-size: 28px;
+    line-height: 30px;
+    display: inline-block;
+    color: #fff;
+    width: 270px;
+    height: 35px;
+}
+.home-child6 {
+    position: absolute;
+    top: 1534px;
+    left: 70px;
+    border-radius: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    width: 1297px;
+    height: 390px;
+}
+
+.image-3-icon {
+    position: absolute;
+    top: 816px;
+    left: 270px;
+    border-radius: 10px;
+    width: 242px;
+    height: 277px;
+    object-fit: cover;
+}
+.image-8-icon {
+    position: absolute;
+    top: 841px;
+    left: 1189px;
+    border-radius: 10px;
+    width: 200px;
+    height: 237px;
+    object-fit: cover;
+}
+.image-9-icon {
+    position: absolute;
+    top: 836px;
+    left: 53px;
+    border-radius: 10px;
+    width: 200px;
+    height: 236px;
+    object-fit: cover;
+}
+.image-25-icon {
+    position: absolute;
+    top: 2712px;
+    left: 501px;
+    border-radius: 10px;
+    width: 242px;
+    height: 197px;
+    object-fit: cover;
+}
+.image-29-icon {
+    position: absolute;
+    top: 3083px;
+    left: 553px;
+    border-radius: 10px;
+    width: 178px;
+    height: 119px;
+    object-fit: cover;
+}
+.image-17-icon {
+    position: absolute;
+    top: 1585px;
+    left: 105px;
+    border-radius: 10px;
+    width: 426px;
+    height: 275px;
+    object-fit: cover;
+}
+.naniura {
+    position: absolute;
+    top: 1108px;
+    left: 288px;
+    line-height: 30px;
+    display: inline-block;
+    width: 211px;
+    height: 35px;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 753px;
+    left: 549.78px;
+    width: 352.6px;
+    height: 405px;
+}
+
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    width: 352.6px;
+    height: 405px;
+}
+.image-6-icon {
+    position: absolute;
+    top: 17.79px;
+    left: 18.2px;
+    border-radius: 10px;
+    width: 318px;
+    height: 339.8px;
+    object-fit: cover;
+}
+.ombus-ombus {
+    position: absolute;
+    top: 375.35px;
+    left: 74.85px;
+    line-height: 30px;
+    display: inline-block;
+    width: 192.8px;
+    height: 29.7px;
+}
+.arsik-ikan-mas {
+    position: absolute;
+    top: 1076px;
+    left: 45px;
+    line-height: 30px;
+    display: inline-block;
+    width: 211px;
+    height: 35px;
+}
+.arsik-ikan-mas1 {
+    position: absolute;
+    top: 2939px;
+    left: 524px;
+    font-size: 25px;
+    line-height: 30px;
+    display: inline-block;
+    width: 211px;
+    height: 35px;
+}
+
+.mie-balap {
+    position: absolute;
+    top: 3208px;
+    left: 537px;
+    line-height: 30px;
+    display: inline-block;
+    width: 211px;
+    height: 35px;
+}
+.kari-bihun-tabona {
+    position: absolute;
+    top: 3208px;
+    left: 807px;
+    line-height: 30px;
+    display: inline-block;
+    width: 211px;
+    height: 35px;
+}
+.babi-panggang-karo {
+    position: absolute;
+    top: 3208px;
+    left: 1073px;
+    line-height: 30px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 229px;
+    height: 35px;
+}
+.saksang {
+    position: absolute;
+    top: 2533px;
+    left: 1094px;
+    font-size: 25px;
+    line-height: 30px;
+    display: inline-block;
+    width: 211px;
+    height: 35px;
+}
+.ayam-gota {
+    position: absolute;
+    top: 1081px;
+    left: 1184px;
+    line-height: 30px;
+    display: inline-block;
+    width: 211px;
+    height: 35px;
+}
+
+.image-16-icon {
+    position: absolute;
+    top: 1238px;
+    left: 124px;
+    border-radius: 10px;
+    width: 264px;
+    height: 146px;
+    object-fit: cover;
+}
+.mie-gomak {
+    position: absolute;
+    top: 1875px;
+    left: 158px;
+    font-size: 28px;
+    line-height: 30px;
+    display: inline-block;
+    width: 320px;
+    height: 35px;
+}
+.image-21-icon {
+    position: absolute;
+    top: 2339px;
+    left: 120px;
+    border-radius: 10px;
+    width: 314px;
+    height: 187px;
+    object-fit: cover;
+}
+.download-29-icon {
+    position: absolute;
+    top: calc(50% + 971px);
+    left: 120px;
+    border-radius: 10px;
+    width: 314px;
+    height: 185px;
+    object-fit: cover;
+}
+
+.image-24-icon {
+    position: absolute;
+    top: 2990px;
+    left: 120px;
+    border-radius: 10px;
+    width: 314px;
+    height: 185px;
+    object-fit: cover;
+}
+.rujak-kolam {
+    position: absolute;
+    top: 2539px;
+    left: calc(50% - 547px);
+    font-size: 25px;
+    display: inline-block;
+    width: 208px;
+    height: 30px;
+}
+.laksa-medan {
+    position: absolute;
+    top: 2865px;
+    left: calc(50% - 532px);
+    font-size: 25px;
+    display: inline-block;
+    width: 178px;
+    height: 29px;
+}
+.panukkup {
+    position: absolute;
+    top: 3193px;
+    left: calc(50% - 547px);
+    font-size: 25px;
+    display: inline-block;
+    width: 208px;
+    height: 30px;
+}
+.image-27-icon {
+    position: absolute;
+    top: 2345px;
+    left: 1076px;
+    border-radius: 10px;
+    width: 247px;
+    height: 170px;
+    object-fit: cover;
+}
+.image-30-icon {
+    position: absolute;
+    top: 3083px;
+    left: 823px;
+    border-radius: 10px;
+    width: 178px;
+    height: 119px;
+    object-fit: cover;
+}
+.image-35-icon {
+    position: absolute;
+    top: 3083px;
+    left: 1102px;
+    border-radius: 10px;
+    width: 179px;
+    height: 121px;
+    object-fit: cover;
+}
+.image-75-icon1 {
+    position: relative;
+    top: 0px;
+    left: 15px;
+    width: 100%;
+    height: 638px;
+    object-fit: cover;
+}
+.home-child7 {
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    background-color: rgba(69, 42, 6, 0.35);
+    width: 2000px;
+    height: 638px;
+   
+}
+.image-10-icon {
+    position: absolute;
+    top: 816px;
+    left: 934px;
+    border-radius: 10px;
+    width: 242px;
+    height: 278px;
+    object-fit: cover;
+}
+.image-24-icon1 {
+    position: absolute;
+    top: 1886px;
+    left: 3206px;
+    border-radius: 10px;
+    width: 215px;
+    height: 160px;
+    object-fit: cover;
+}
+.dali-ni-horbo {
+    position: absolute;
+    top: 1103px;
+    left: 947px;
+    line-height: 30px;
+    display: inline-block;
+    width: 211px;
+    height: 35px;
+}
+
+.group-item {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: #fff;
+    width: 194px;
+    height: 42px;
+}
+.tentang-kamibtn {
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 68px);
+    display: inline-block;
+    width: 136px;
+    height: 22px;
+}
+.rectangle-group {
+    position: absolute;
+    top: 459px;
+    left: 616px;
+    width: 194px;
+    height: 42px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 18px;
+    font-family: Montserrat;
+}
+.temukan-petualangan-tidak {
+    position: absolute;
+    top: 339px;
+    left: calc(50% - 344px);
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    display: inline-block;
+    width: 668px;
+    height: 86px;
+}
+.span {
+    color: #050505;
+}
+.selamat-datang {
+    position: absolute;
+    top: 239px;
+    left: 519px;
+    font-size: 48px;
+    text-align: left;
+    color: #fff;
+}
+/* end of home */
+
+/* Menu */
+
+.menu-makanan-ringanberat {
+    width: 100%;
+    position: relative;
+    background-color: #f7f3f3;
+    height: 900px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+    font-family: Inter;
+    left: -8px;
+    top:-105px;
+}
+.image-75-icon {
+    position: absolute;
+   top:60px;
+    left: -5px;
+    width: 100%;
+    height: 867px;
+    object-fit: cover;
+}
+.menu-makanan-ringanberat-item {
+    position: absolute;
+    top: 409px;
+    left: 591px;
+    border-radius: 10px;
+    background-color: rgba(255, 140, 0, 0.76);
+    width: 235px;
+    height: 81px;
+    cursor: pointer;
+}
+.makanan-ringan {
+    position: absolute;
+    top: 435px;
+    left: 614px;
+    font-family: Montserrat;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.menu-makanan-ringanberat-inner {
+    position: absolute;
+    top: 512px;
+    left: 591px;
+    border-radius: 10px;
+    background-color: rgba(255, 140, 0, 0.76);
+    width: 235px;
+    height: 81px;
+    cursor: pointer;
+}
+.makanan-berat {
+    position: absolute;
+    top: 538px;
+    left: 621px;
+    font-family: Montserrat;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* end of menu */
+
+/* Menu makanan ringan */
+.menu-makanan-ringan1 {
+    position: absolute;
+    top: 100px;
+    left: 550px;
+    font-size: 48px;
+    color: #ff8c00;
+    text-align: center;
+}
+.menu-makanan-ringan-inner {
+    position: absolute;
+    top: 446px;
+    left: 732px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+/* 
+.group-child1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    width: 298px;
+    height: 314.7px;
+} */
+
+.group-div {
+    position: absolute;
+    top: 446px;
+    left: 1051px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+/* .lambang{
+    top: 200px;
+    left: 700px;
+    position: absolute;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    height:200px ;
+} */
+.menu-makanan-ringan-child {
+    position: absolute;
+    top: 811px;
+    left: 732px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+.rectangle-parent1 {
+    position: absolute;
+    top: 1517.77px;
+    left: 738px;
+    box-shadow: 0px 9px 9px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+
+.rectangle-parent2 {
+    position: absolute;
+    top: 1519.77px;
+    left: 1058px;
+    box-shadow: 0px 9px 9px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+.rectangle-parent3 {
+    position: absolute;
+    top: 1157px;
+    left: 1058px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+.rectangle-parent4 {
+    position: absolute;
+    top: 1517.77px;
+    left: 93px;
+    box-shadow: 0px 9px 9px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+.rectangle-parent5 {
+    position: absolute;
+    top: 1155px;
+    left: 93px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+.rectangle-parent6 {
+    position: absolute;
+    top: 446px;
+    left: 93px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+.rectangle-parent7 {
+    position: absolute;
+    top: 810px;
+    left: 94px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+.rectangle-parent8 {
+    position: absolute;
+    top: 811px;
+    left: 410px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+.rectangle-parent9 {
+    position: absolute;
+    top: 446px;
+    left: 413px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+
+.rectangle-parent10 {
+    position: absolute;
+    top: 1519.77px;
+    left: 413px;
+    box-shadow: 0px 9px 9px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+.rectangle-parent11 {
+    position: absolute;
+    top: 1157px;
+    left: 413px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+.rectangle-parent12 {
+    position: absolute;
+    top: 1860px;
+    left: 738px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+.rectangle-parent13 {
+    position: absolute;
+    top: 2200px;
+    left: 736px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+.rectangle-parent14 {
+    position: absolute;
+    top: 2548px;
+    left: 738px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+.rectangle-parent15 {
+    position: absolute;
+    top: 2200px;
+    left: 1061px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}.rectangle-parent16 {
+    position: absolute;
+    top: 2548px;
+    left: 1063px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}.rectangle-parent17 {
+    position: absolute;
+    top: 1862.45px;
+    left: 1058px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}.rectangle-parent18 {
+    position: absolute;
+    top: 1860.45px;
+    left: 93px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+.rectangle-parent19 {
+    position: absolute;
+    top: 2200px;
+    left: 91px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+.rectangle-parent20 {
+    position: absolute;
+    top: 2548px;
+    left: 93px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}.rectangle-parent21 {
+    position: absolute;
+    top: 1860px;
+    left: 412px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+.rectangle-parent22 {
+    position: absolute;
+    top: 2202px;
+    left: 411px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+.rectangle-parent23 {
+    position: absolute;
+    top: 2550px;
+    left: 413px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+.group-inner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    width: 298px;
+    height: 314.7px;
+}
+/* .rectangle-div1 {
+    position: absolute;
+    top: 24.46px;
+    left: 37.47px;
+    background-color: #d9d9d9;
+    width: 216.8px;
+    height: 160.6px;
+} */
+.rectangle-group1 {
+    position: absolute;
+    top: 1155px;
+    left: 738px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+.menu-makanan-ringan-item {
+    position: absolute;
+    top: 1580.45px;
+    left: 821px;
+    border-radius: 10px;
+    width: 125px;
+    height: 83px;
+}
+
+.rectangle-container1 {
+    position: absolute;
+    top: 811px;
+    left: 1054px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 314.7px;
+}
+.rekomendasi-makanan-khas {
+    margin-block-start: 0;
+    margin-block-end: 10px;
+
+}
+.dengan-suasana-yang {
+    margin: 0;
+    text-align: center;
+}
+.rekomendasi-makanan-khas-container {
+    position: absolute;
+    top: 210px;
+    right: 300px;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000;
+    text-align: center;
+    display: inline-block;
+    width: 854px;
+}.sendor {
+    position: absolute;
+    top: 1022px;
+    left: calc(50% + 15px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 178px;
+    height: 29px;
+}
+.alame {
+    position: absolute;
+    top: 1362px;
+    left: calc(50% + 35px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 178px;
+    height: 29px;
+}
+.kue-bohong {
+    position: absolute;
+    top: 1729px;
+    left: calc(50% + 25px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 208px;
+    height: 30px;
+}
+.laksa-medan1 {
+    position: absolute;
+    top: 656px;
+    left: calc(50% + 25px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 178px;
+    height: 29px;
+}
+.godok-godok-pisang {
+    position: absolute;
+    top: 1020px;
+    left: calc(50% + 300px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 272px;
+    height: 29px;
+}
+.pohul-pohul {
+    position: absolute;
+    top: 1367px;
+    left: calc(50% + 340px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 178px;
+    height: 29px;
+}
+.panukkup1 {
+    position: absolute;
+    top: 1729px;
+    left: calc(50% + 340px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 208px;
+    height: 30px;
+}
+.lemang {
+    position: absolute;
+    top: 656px;
+    left: calc(50% + 340px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 178px;
+    height: 29px;
+}
+.bubur-gadong {
+    position: absolute;
+    top: 1022px;
+    left: calc(50% - 630px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 178px;
+    height: 29px;
+}
+.kue-lompong-sagu {
+    position: absolute;
+    top: 1362px;
+    left: calc(50% - 650px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 242px;
+    height: 29px;
+}
+.rujak-kolam1 {
+    position: absolute;
+    top: 1729px;
+    left: calc(50% - 630px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 208px;
+    height: 30px;
+}
+.bika-ambon {
+    position: absolute;
+    top: 656px;
+    left: calc(50% - 630px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 214px;
+    height: 29px;
+}.martabak-piring {
+    position: absolute;
+    top: 1022px;
+    left: calc(50% - 320px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 226px;
+    height: 29px;
+}
+.sasagun {
+    position: absolute;
+    top: 1362px;
+    left: calc(50% - 300px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 178px;
+    height: 29px;
+}
+.untir-untir {
+    position: absolute;
+    top: 1729px;
+    left: calc(50% - 300px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 208px;
+    height: 30px;
+}
+.ombus-ombus {
+    position: absolute;
+    top: 656px;
+    left: calc(50% - 320px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 250px;
+    height: 29px;
+}.cimpa {
+    position: absolute;
+    top: 2069px;
+    left: calc(50% + 25px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 208px;
+    height: 30px;
+}
+.kue-chai-pao {
+    position: absolute;
+    top: 2415.55px;
+    left: calc(50% + 20px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 208px;
+    height: 30px;
+}
+.bolu-meranti {
+    position: absolute;
+    top: 2755px;
+    left: calc(50% + 20px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 208px;
+    height: 30px;
+}
+.roti-ketawa {
+    position: absolute;
+    top: 2069px;
+    left: calc(50% + 330px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 208px;
+    height: 30px;
+}
+.kue-jala {
+    position: absolute;
+    top: 2415.55px;
+    left: calc(50% + 330px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 208px;
+    height: 30px;
+}
+.kacang-sihobuk {
+    position: absolute;
+    top: 2763.55px;
+    left: calc(50% + 335px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 208px;
+    height: 30px;
+}
+.keripik-sambal-sibolga {
+    position: absolute;
+    top: 2070px;
+    left: calc(50% - 720px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 392px;
+    height: 30px;
+}
+.kue-balok {
+    position: absolute;
+    top: 2411px;
+    left: calc(50% - 650px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 208px;
+    height: 30px;
+}
+.bakwan-teri-medan {
+    position: absolute;
+    top: 2764px;
+    left: calc(50% - 660px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 259px;
+    height: 30px;
+}.wajik-ketan {
+    position: absolute;
+    top: 2069px;
+    left: calc(50% - 335px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 208px;
+    height: 30px;
+}
+.kue-bangkit-medan {
+    position: absolute;
+    top: 2412px;
+    left: calc(50% - 340px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 256px;
+    height: 30px;
+}
+.karipap {
+    position: absolute;
+    top: 2760px;
+    left: calc(50% - 345px);
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    width: 256px;
+    height: 30px;
+}.image1 {
+    position: absolute;
+    top: 478px;
+    left: 130px;
+    border-radius: 10px;
+    width: 214px;
+    height: 159px;
+    object-fit: cover;
+}
+.image2 {
+    position: absolute;
+    top: 476px;
+    left: 455px;
+    border-radius: 10px;
+    width: 217px;
+    height: 159px;
+    object-fit: cover;
+}
+.image3 {
+    position: absolute;
+    top: 479px;
+    left: 1092px;
+    border-radius: 10px;
+    width: 217px;
+    height: 160px;
+    object-fit: cover;
+}
+.image4 {
+    position: absolute;
+    top: 834px;
+    left: 775px;
+    border-radius: 10px;
+    width: 217px;
+    height: 160px;
+    object-fit: cover;
+}
+.laksa-medan2{
+    position: absolute;
+    top: 479px;
+    left: 775px;
+    border-radius: 10px;
+    width: 217px;
+    height: 160px;
+    object-fit: cover;
+}
+.image5 {
+    position: absolute;
+    bottom: 1918px;
+    left: 450px;
+    border-radius: 10px;
+    width: 217px;
+    height: 159px;
+    object-fit: cover;
+}
+.image6 {
+    position: absolute;
+    top: 1181px;
+    left: 775px;
+    border-radius: 10px;
+    width: 216px;
+    height: 159px;
+    object-fit: cover;
+}
+.image7 {
+    position: absolute;
+    top: 1182px;
+    left: 1095px;
+    border-radius: 10px;
+    width: 217px;
+    height: 161px;
+    object-fit: cover;
+}
+.image8 {
+    position: absolute;
+    top: 1545px;
+    left: 451px;
+    border-radius: 10px;
+    width: 216px;
+    height: 158px;
+    object-fit: cover;
+}
+.sasagun2{
+    position: absolute;
+    top: 1182px;
+    left: 450px;
+    border-radius: 10px;
+    width: 217px;
+    height: 161px;
+    object-fit: cover;
+}
+.image9 {
+    position: absolute;
+    top: 1542px;
+    left: 775px;
+    border-radius: 10px;
+    width: 217px;
+    height: 161px;
+    object-fit: cover;
+}
+.image10 {
+    position: absolute;
+    top: 1545px;
+    left: 1095px;
+    border-radius: 10px;
+    width: 217px;
+    height: 158px;
+    object-fit: cover;
+}
+.image11 {
+    position: absolute;
+    top: calc(50% - 1154px);
+    left: 780px;
+    border-radius: 10px;
+    width: 213px;
+    height: 158px;
+    object-fit: cover;
+}
+.image12 {
+    position: absolute;
+    top: 837px;
+    left: 450px;
+    border-radius: 10px;
+    width: 216px;
+    height: 155px;
+    object-fit: cover;
+}
+.image13 {
+    position: absolute;
+    top: 1887px;
+    left: 450px;
+    border-radius: 10px;
+    width: 217px;
+    height: 159px;
+    object-fit: cover;
+}
+.image14 {
+    position: absolute;
+    top: 1892px;
+    left: 782px;
+    border-radius: 10px;
+    width: 217px;
+    height: 159px;
+    object-fit: cover;
+}
+.image15 {
+    position: absolute;
+    top: 1887px;
+    left: 1095px;
+    border-radius: 10px;
+    width: 217px;
+    height: 167px;
+    object-fit: cover;
+}
+.image16 {
+    position: absolute;
+    top: 837px;
+    left: 1099px;
+    border-radius: 10px;
+    width: 213px;
+    height: 157px;
+    object-fit: cover;
+}
+.image17 {
+    position: absolute;
+    top: 1181px;
+    left: 130px;
+    border-radius: 10px;
+    width: 216px;
+    height: 157px;
+    object-fit: cover;
+}
+.image18 {
+    position: absolute;
+    top: 2225px;
+    left: 130px;
+    border-radius: 10px;
+    width: 216px;
+    height: 157px;
+    object-fit: cover;
+}.image19 {
+    position: absolute;
+    top: 1181px;
+    left: 130px;
+    border-radius: 10px;
+    width: 216px;
+    height: 157px;
+    object-fit: cover;
+}
+.image20 {
+    position: absolute;
+    bottom: 1918px;
+    left: 450px;
+    border-radius: 10px;
+    width: 217px;
+    height: 159px;
+    object-fit: cover;
+}
+.image21 {
+    position: absolute;
+    top: 2224px;
+    left: 453px;
+    border-radius: 10px;
+    width: 216px;
+    height: 155px;
+    object-fit: cover;
+
+}
+.image22 {
+    position: absolute;
+    top: 2226px;
+    left: 778px;
+    border-radius: 10px;
+    width: 216px;
+    height: 155px;
+    object-fit: cover;
+}
+.image23 {
+    position: absolute;
+    top: 2225px;
+    left: 1099px;
+    border-radius: 10px;
+    width: 211px;
+    height: 154px;
+    object-fit: cover;
+}
+.image24{
+    position: absolute;
+    top: 2572px;
+    left: 129px;
+    border-radius: 10px;
+    width: 216px;
+    height: 154px;
+    object-fit: cover;
+}
+.image25{
+    position: absolute;
+    top: 2572px;
+    left: 456px;
+    border-radius: 10px;
+    width: 223px;
+    height: 154px;
+    object-fit: cover;
+}
+.image26 {
+    position: absolute;
+    top: 2572px;
+    left: 780px;
+    border-radius: 10px;
+    width: 214px;
+    height: 154px;
+    object-fit: cover;
+}.image27 {
+    position: absolute;
+    top: 834px;
+    left: 131px;
+    border-radius: 10px;
+    width: 216px;
+    height: 158px;
+    object-fit: cover;
+}
+.image28 {
+    position: absolute;
+    top: 1543px;
+    left: 130px;
+    border-radius: 10px;
+    width: 217px;
+    height: 156px;
+    object-fit: cover;
+}
+.image29 {
+    position: absolute;
+    top: 1886px;
+    left: 132px;
+    border-radius: 10px;
+    width: 215px;
+    height: 160px;
+    object-fit: cover;
+}
+.selengkapnya {
+    position: absolute;
+    top: 712px;
+    left: 150px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #ff8c00;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.selengkapnya1 {
+    position: absolute;
+    top: 712px;
+    left: 465px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+.selengkapnya2 {
+    position: absolute;
+    top: 712px;
+    left: 785px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+.selengkapnya3 {
+    position: absolute;
+    top: 712px;
+    left: 1105px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+.selengkapnya4 {
+    position: absolute;
+    top: 1079px;
+    left: 145px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}.selengkapnya5 {
+    position: absolute;
+    top: 1079px;
+    left: 465px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+.selengkapnya6 {
+    position: absolute;
+    top: 1075px;
+    left: 788px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+.selengkapnya7 {
+    position: absolute;
+    top: 1076px;
+    left: 1115px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+.selengkapnya8 {
+    position: absolute;
+    top: 1417px;
+    left: 1110px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+.selengkapnya9 {
+    position: absolute;
+    top: 2126px;
+    left: 1100px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+.selengkapnya10 {
+    position: absolute;
+    top: 2467.55px;
+    left: 1105px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+
+}.selengkapnya12 {
+    position: absolute;
+    top: 1417px;
+    left: 790px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+.selengkapnya13 {
+    position: absolute;
+    top: 1417px;
+    left: 470px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+.selengkapnya14 {
+    position: absolute;
+    top: 1421px;
+    left: 145px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+.selengkapnya15 {
+    position: absolute;
+    top: 1784px;
+    left: 145px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+.selengkapnya16 {
+    position: absolute;
+    top: 1781px;
+    left: 475px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+.selengkapnya17 {
+    position: absolute;
+    top: 1782px;
+    left: 785px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+.selengkapnya18 {
+    position: absolute;
+    top: 1785px;
+    left: 1110px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+.selengkapnya19 {
+    position: absolute;
+    top: 2126px;
+    left: 800px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+.selengkapnya20 {
+    position: absolute;
+    top: 2465.55px;
+    left: 796px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+.selengkapnya21 {
+    position: absolute;
+    top: 2808px;
+    left: 800px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+.selengkapnya22 {
+    position: absolute;
+    top: 2126px;
+    left: 465px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+.selengkapnya23 {
+    position: absolute;
+    top: 2466px;
+    left: 463px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+.selengkapnya24 {
+    position: absolute;
+    top: 2808px;
+    left: 475px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+.selengkapnya25 {
+    position: absolute;
+    top: 2126px;
+    left: 140px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+.selengkapnya26 {
+    position: absolute;
+    top: 2468px;
+    left: 140px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+.selengkapnya27 {
+    position: absolute;
+    top: 2808px;
+    left: 145px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 185px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff8c00;
+}
+/* end of makanan ringan */
+/* Berat */
+.menu-makanan-berat {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 3258px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 25px;
+    color: #fff;
+    font-family: Inter;
+}
+.non-halal {
+    position: absolute;
+    top: 2288px;
+    left: 130px;
+    font-size: 48px;
+    font-family: Montserrat;
+    color: #ff8c00;
+}
+.halal {
+    position: absolute;
+    top: 369px;
+    left: 106px;
+    font-size: 48px;
+    font-family: Montserrat;
+    color: #ff8c00;
+}
+/* End of berat */
+
+/* Login umkm/user */
+
+.umkm {
+    position: absolute;
+    top: 3px;
+    left: 28px;
+    display: flex;
+    align-items: center;
+    width: 108px;
+    height: 56px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.form-email-login {
+    position: absolute;
+    top: -80px;
+    left: 280px;
+    background-color: #fff;
+    width: 150px;
+    height: 62px;
+    background-color: #ff8c00;
+    border-radius: 10px;
+    
+}
+.form-email-login2 {
+    position: absolute;
+    top: -80px;
+    left: 0px;
+    background-color: #fff;
+    width: 150px;
+    height: 62px;
+    background-color: #ff8c00;
+    border-radius: 10px;
+    
+}
+.user {
+    position: absolute;
+    top: 6px;
+    left: 28px;
+    display: flex;
+    align-items: center;
+    width: 85px;
+    height: 56px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.form-password-login {
+    position: absolute;
+    top: 70px;
+    left: 280px;
+    border-radius: 10px;
+    background-color: #ff8c00;
+    width: 150px;
+    height: 62px;
+}
+.login {
+    position: absolute;
+    top: 370px;
+    left: 758px;
+    width: 100%;
+    height: 322px;
+}
+.homelog {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 725px;
+    height: 710px;
+    object-fit: cover;
+}
+.login-umkmuser-child {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    background-color: rgba(69, 42, 6, 0.35);
+    width: 725px;
+    height: 710px;
+}
+.lambanglog{
+    position: absolute;
+    top: 320px;
+    left: 27px;
+    width: 666px;
+    height: 155px;
+    object-fit: cover;
+}
+.login-umkmuser-item {
+    position: absolute;
+    top: 60px;
+    left: 794px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #ff8c00;
+    box-sizing: border-box;
+    width: 571px;
+    height: 89px;
+}
+.masukdaftar1 {
+    position: absolute;
+    top: 73px;
+    left: 879px;
+    font-size: 48px;
+    display: inline-block;
+    color: #ff8c00;
+    text-align: center;
+    width: 367px;
+    height: 63px;
+}
+.login-umkmuser {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    top:22px;
+    left: -8px;
+    height: 710px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 32px;
+    color: #fff;
+    font-family: Inter;
+}
+
+/* end of Login umkm/user */
+/* Login1 */
+.rectanglelogin {
+    width: 100%;
+  
+    left: 720px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 120px;
+    background-color: #ff8c00;
+}
+.masukdaftarlog {
+    width: 552px;
+    position: relative;
+    font-size: 48px;
+    display: inline-block;
+    font-family: Inter;
+    color: #fff;
+    text-align: center;
+    height: 64px;
+    left: 830px;
+    top: -100px;
+}
+.email {
+    color: #ff8c00;
+    position: absolute;
+    top: 200px;
+    left: 750px;
+    display: inline-block;
+    width: 552px;
+    height: 56px;
+}
+.kata-sandi {
+    color: #ff8c00;
+    position: absolute;
+    top: 380px;
+    left: 750px;
+    display: inline-block;
+    width: 552px;
+    height: 56px;
+}
+.daftar-di-sini {
+    text-decoration: underline;
+    font-size: 25px;
+    color: blue;
+}
+.tidak-punya-akun-container {
+    position: absolute;
+    top: 660px;
+    left: 750px;
+    display: inline-block;
+    width: 552px;
+    height: 56px;
+    cursor: pointer;
+    color: #ff8c00;
+}
+.form-email-login-child {
+    position: absolute;
+    top: 350px;
+    left: 750px;
+    border-radius: 60px;
+    background-color: #fff;
+    border: 1px solid #eb8a47;
+    box-sizing: border-box;
+    width: 644px;
+    height: 62px;
+    cursor: pointer;
+
+}
+.form-password-login-child {
+    position: absolute;
+    top: 440px;
+    left: 750px;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 1px solid #eb8a47;
+    box-sizing: border-box;
+    width: 644px;
+    height: 62px;
+}
+.masuk {
+    position: absolute;
+    top: 33px;
+    left: 154px;
+    display: inline-block;
+    width: 336px;
+    height: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.button {
+    position: absolute;
+    top: 550px;
+    left: 750px;
+    border-radius: 10px;
+    background-color: #ff8c00;
+    width: 644px;
+    height: 96px;
+    text-align: center;
+    color: #fff;
+}
+/* end of login 1 */
+/* daftar */
+.email1 {
+    color: #ff8c00;
+    position: absolute;
+    top: 150px;
+    left: 750px;
+    display: inline-block;
+    width: 552px;
+    height: 56px;
+}
+.kata-sandi1 {
+    color: #ff8c00;
+    position: absolute;
+    top: 290px;
+    left: 750px;
+    display: inline-block;
+    width: 552px;
+    height: 56px;
+}
+.kata-sandi2 {
+    color: #ff8c00;
+    position: absolute;
+    top: 430px;
+    left: 750px;
+    display: inline-block;
+    width: 552px;
+    height: 56px;
+}
+.form-email-login-child1 {
+    position: absolute;
+    top: 280px;
+    left: 470px;
+    border-radius: 60px;
+    background-color: #fff;
+    border: 1px solid #eb8a47;
+    box-sizing: border-box;
+    width: 644px;
+    height: 62px;
+    cursor: pointer;
+
+}
+.form-password-login-child1 {
+    position: absolute;
+    top: 340px;
+    left: 750px;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 1px solid #eb8a47;
+    box-sizing: border-box;
+    width: 644px;
+    height: 62px;
+}
+.form-password-login-child2 {
+    position: absolute;
+    top: 480px;
+    left: 750px;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 1px solid #eb8a47;
+    box-sizing: border-box;
+    width: 644px;
+    height: 62px;
+}
+/* end of daftar */
+/* Profile UMKM */
+.umkm-profil-child {
+    position: absolute;
+    top: 1024px;
+    left: 1215px;
+    width: 180px;
+    height: 225px;
+    overflow: hidden;
+}
+.nama-usaha {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    display: inline-block;
+    width: 552px;
+    height: 56px;
+}
+.email2{
+    position: relative;
+}
+.email-wrapper {
+    position: absolute;
+    top: -70px;
+    left: -750px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.no-hp-wrapper {
+    position: absolute;
+    top: 60px;
+    left: -750px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.form-verifikasi-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 1px solid #eb8a47;
+    box-sizing: border-box;
+    width: 565px;
+    height: 62px;
+}
+
+.form-verifikasi {
+    position: absolute;
+    top: 56px;
+    left: 10px;
+    width: 535px;
+    height: 62px;
+    font-size: 24px;
+    color: #000;
+}
+.galleofrancogmailcom {
+    position: absolute;
+    top: 15px;
+    left: 9px;
+    text-decoration: underline;
+    color: inherit;
+    display: inline-block;
+    width: 327px;
+    height: 32px;
+}
+.form-new-pass-verif {
+    position: absolute;
+    top: 192px;
+    left: 10px;
+    border: 1px solid #eb8a47;
+    box-sizing: border-box;
+    width: 535px;
+    height: 62px;
+    font-size: 24px;
+    color: #000;
+}
+.nomorhp {
+    position: absolute;
+    top: 15px;
+    left: 9px;
+    display: inline-block;
+    width: 214px;
+    height: 32px;
+}
+.form-enter-new-pass-verif {
+    position: absolute;
+    top: 320px;
+    left: 10px;
+    border: 1px solid #eb8a47;
+    box-sizing: border-box;
+    width: 535px;
+    height: 62px;
+    font-size: 24px;
+    color: #000;
+}
+.profilkiri {
+    position: absolute;
+    top: 353px;
+    left: 54px;
+    width: 575px;
+    height: 511px;
+}
+.tempat-usaha {
+    position: absolute;
+    top: 28px;
+    left: 10px;
+    display: inline-block;
+    width: 552px;
+    height: 56px;
+}
+.alamat-usaha-wrapper {
+    position: absolute;
+    top: 146px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.provinsi-sumatera-utara {
+    position: absolute;
+    top: 15px;
+    left: 9px;
+    display: inline-block;
+    width: 286px;
+    height: 32px;
+}
+.form-verifikasi1 {
+    position: absolute;
+    top: 84px;
+    left: 10px;
+    border-radius: 30px;
+    border: 1px solid #eb8a47;
+    box-sizing: border-box;
+    width: 565px;
+    height: 62px;
+    font-size: 24px;
+    color: #000;
+}
+.form-new-pass-verif-item {
+    position: absolute;
+    top: 15px;
+    left: -8px;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 1px solid #eb8a47;
+    box-sizing: border-box;
+    width: 565px;
+    height: 113px;
+}
+.form-new-pass-verif1 {
+    position: absolute;
+    top: 192px;
+    left: 10px;
+    width: 535px;
+    height: 62px;
+}
+.jl-besar-no78 {
+    position: absolute;
+    top: 238px;
+    left: 20px;
+    font-size: 24px;
+    color: #000;
+    display: inline-block;
+    width: 516px;
+    height: 32px;
+}
+.unggah-child {
+    position: absolute;
+    top: 370px;
+    left: 33px;
+    border-radius: 10px;
+    background-color: #ff8c00;
+    width: 245px;
+    height: 53px;
+    cursor: pointer;
+}
+.unggah-produk-umkm {
+    position: absolute;
+    top: 380px;
+    left: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #f7f3f3;
+    text-align: center;
+    display: inline-block;
+    width: 224px;
+  text-decoration: none;
+}
+.dashboard-item {
+    position: absolute;
+    top: 370px;
+    left: 318px;
+    border-radius: 10px;
+    background-color: #ff8c00;
+    width: 208px;
+    height: 54px;
+    cursor: pointer;
+}
+.dashboard {
+    position: absolute;
+    top: 380px;
+    left: 323px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 194px;
+  text-decoration: none;
+}
+.profilekanan {
+    position: absolute;
+    top: 354px;
+    left: 801px;
+    width: 575px;
+    height: 410px;
+}
+.profiljudul {
+    position: absolute;
+    top: 203px;
+    left: 339px;
+    font-size: 48px;
+    display: inline-block;
+    text-align: center;
+    width: 762px;
+    height: 126px;
+  
+}
+.umkm-profil {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 32px;
+    color: #ff8c00;
+    font-family: Inter;
+}
+.imageumkm {
+  width: 200px;
+  position: relative;
+  border-radius: 100px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 183px;
+  left: 70px;
+  top: 70px;
+  object-fit: cover;
+}
+
+.umkm-hapus {
+  position: absolute;
+  top: 911px;
+  left: 39px;
+  border-radius: 10px;
+  background-color: #ff8c00;
+  width: 208px;
+  height: 69px;
+  cursor: pointer;
+}
+.umkm-simpan {
+  position: absolute;
+  top: 911px;
+  left: 1168px;
+  border-radius: 10px;
+  background-color: #ff8c00;
+  width: 208px;
+  height: 69px;
+  cursor: pointer;
+}
+.simpan {
+  position: absolute;
+  top: 931px;
+  left: 1175px;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Montserrat;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  width: 194px;
+}
+.keluar {
+  position: absolute;
+  top: 931px;
+  left: 43px;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Montserrat;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  width: 194px;
+}
+
+/* End of Profile UMKM */
+/* Upload Produk */
+.unggah-produk {
+    position: absolute;
+    top: 109px;
+    left: 545px;
+    font-size: 32px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 292px;
+    height: 60px;
+}
+.nama-produk {
+    position: absolute;
+    top: 182px;
+    left: 39px;
+}
+.alamat {
+    position: absolute;
+    top: 576px;
+    left: 39px;
+}
+.kontak {
+    position: absolute;
+    top: 721px;
+    left: 39px;
+}
+.thumbnail-produk {
+    position: absolute;
+    top: 905px;
+    left: 39px;
+}
+.harga-produk {
+    position: absolute;
+    top: 899px;
+    left: 775px;
+}
+.kategori-produk {
+    position: absolute;
+    top: 899px;
+    left: 512px;
+}
+.halaman-upload-produk-child {
+    position: absolute;
+    top: 861px;
+    left: 937px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.deskripsi-produk {
+    position: absolute;
+    top: 336px;
+    left: 39px;
+}
+.halaman-upload-produk-item {
+    position: absolute;
+    top: 221px;
+    left: 44px;
+    border-radius: 10px;
+    border: 1px solid #eb8a47;
+    box-sizing: border-box;
+    width: 1284px;
+    height: 77px;
+}
+.halaman-upload-produk-inner {
+    position: absolute;
+    top: 615px;
+    left: 44px;
+    border-radius: 10px;
+    border: 1px solid #eb8a47;
+    box-sizing: border-box;
+    width: 1284px;
+    height: 77px;
+}
+.rectangle-kontak {
+    position: absolute;
+    top: 751px;
+    left: 44px;
+    border-radius: 10px;
+    border: 1px solid #eb8a47;
+    box-sizing: border-box;
+    width: 1284px;
+    height: 88px;
+}
+.halaman-upload-produk-child1 {
+    position: absolute;
+    top: 936px;
+    left: 775px;
+    border-radius: 10px;
+    border: 1px solid #eb8a47;
+    box-sizing: border-box;
+    width: 553px;
+    height: 72px;
+}
+.halaman-upload-produk-child2 {
+    position: absolute;
+    top: 375px;
+    left: 44px;
+    border-radius: 10px;
+    border: 1px solid #eb8a47;
+    box-sizing: border-box;
+    width: 1284px;
+    height: 181px;
+}
+.halaman-upload-produk-child3 {
+    position: absolute;
+    top: 1134px;
+    left: 1123px;
+    border-radius: 10px;
+    background-color: #ff8c00;
+    width: 208px;
+    height: 69px;
+}
+.unggah {
+    position: absolute;
+    top: 1154px;
+    left: 1130px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #fff;
+    display: inline-block;
+    width: 194px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.bika-ambon-rian-nama {
+    position: absolute;
+    top: 249.81px;
+    left: calc(50% - 650px);
+    color: #000;
+    display: inline-block;
+    width: 180px;
+    height: 32.3px;
+    transform:  rotate(-0.3deg);
+    transform-origin: 0 0;
+}
+.jl-besar-sumatera-no78 {
+    position: absolute;
+    top: 630px;
+    left: 62px;
+    font-size: 24px;
+    color: #000;
+    text-align: left;
+    display: inline-block;
+    width: 536px;
+    height: 32px;
+}
+.divnomor {
+    position: absolute;
+    top: 783px;
+    left: calc(50% - 658px);
+    font-size: 23px;
+    font-weight: 500;
+    font-family: Montserrat;
+    color: #000;
+    text-align: left;
+    display: inline-block;
+    width: 194px;
+    height: 30px;
+}
+.p {
+    margin: 0;
+}
+.divharga {
+    position: absolute;
+    top: 961px;
+    left: calc(50% + 79px);
+    font-size: 23px;
+    font-weight: 500;
+    font-family: Montserrat;
+    color: #000;
+    text-align: left;
+    display: inline-block;
+    width: 194px;
+    height: 30px;
+}
+.image-upload {
+    position: absolute;
+    top: 936px;
+    left: 44px;
+    border-radius: 10px;
+    width: 324px;
+    height: 212px;
+    object-fit: cover;
+}
+.halaman-upload-produk-child4 {
+    position: absolute;
+    top: 936px;
+    left: 480px;
+    border-radius: 10px;
+    background-color: #eee;
+    width: 115px;
+    height: 35px;
+}
+.halaman-upload-produk-child5 {
+    position: absolute;
+    top: 937px;
+    left: 599px;
+    border-radius: 10px;
+    background-color: #ff8c00;
+    width: 115px;
+    height: 35px;
+}
+.makanan-ringan-pilih {
+    position: absolute;
+    top: 944px;
+    left: 487px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #000;
+}
+.makanan-berat-pilih {
+    position: absolute;
+    top: 945px;
+    left: 609px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff4f4;
+}
+.halaman-upload-produk {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 1259px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 20px;
+    color: #ff8c00;
+    font-family: Inter;
+}
+
+/* End of upload produk */
+/* Dashboard */
+.dashboard-umkm-child {
+    position: absolute;
+    top: 190px;
+    left: 67px;
+    border-radius: 10px;
+    border: 1px solid #ff8c00;
+    box-sizing: border-box;
+    width: 1322px;
+    height: 93px;
+}
+.dashboard-umkm-item {
+    position: absolute;
+    top: 363px;
+    left: 67px;
+    border-radius: 10px;
+    border: 1px solid #ff8c00;
+    box-sizing: border-box;
+    width: 1322px;
+    height: 758px;
+}
+.dashboard-umkm-inner {
+    position: absolute;
+    top: 444px;
+    left: 105px;
+    border-radius: 10px;
+    border: 1px solid #ff8c00;
+    box-sizing: border-box;
+    width: 1233px;
+    height: 125px;
+}
+.rectangle-divdashboard {
+    position: absolute;
+    top: 215px;
+    left: 85px;
+    border-radius: 10px;
+    border: 1px solid #818080;
+    box-sizing: border-box;
+    width: 1054px;
+    height: 43px;
+}
+.dashboard-umkm-child2 {
+    position: absolute;
+    top: 586px;
+    left: 105px;
+    border-radius: 10px;
+    border: 1px solid #ff8c00;
+    box-sizing: border-box;
+    width: 1233px;
+    height: 125px;
+}
+.dashboard-umkm-child3 {
+    position: absolute;
+    top: 728px;
+    left: 105px;
+    border-radius: 10px;
+    border: 1px solid #ff8c00;
+    box-sizing: border-box;
+    width: 1233px;
+    height: 125px;
+}
+.dashboard-umkm-child4 {
+    position: absolute;
+    top: 870px;
+    left: 105px;
+    border-radius: 10px;
+    border: 1px solid #ff8c00;
+    box-sizing: border-box;
+    width: 1233px;
+    height: 125px;
+}
+.produkdashboard {
+    position: absolute;
+    top: 385px;
+    left: 105px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 83px;
+    height: 28px;
+}
+.kategori {
+    position: absolute;
+    top: 380px;
+    left: 636px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 100px;
+    height: 28px;
+}
+.harga-jual {
+    position: absolute;
+    top: 385px;
+    left: 1005px;
+    display: inline-block;
+    font-family: Montserrat;
+    width: 123px;
+    height: 28px;
+}
+.dashboard-umkm-simpan {
+    position: absolute;
+    top: 1167px;
+    left: 1130px;
+    border-radius: 10px;
+    background-color: #ff8c00;
+    width: 208px;
+    height: 69px;
+    cursor: pointer;
+}
+.simpan1{
+    position: absolute;
+    top: 1187px;
+    left: 1190px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #fff;
+    display: inline-block;
+    width: 194px;
+}
+.unggah-produk {
+    position: absolute;
+    top: 227px;
+    left: 1161px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #fff;
+    display: inline-block;
+    width: 216px;
+}
+.image-dashboard {
+    position: absolute;
+    top: 466px;
+    left: 115px;
+    border-radius: 10px;
+    width: 146px;
+    height: 82px;
+    object-fit: cover;
+}
+.bika-ambon-riandashboard {
+    position: absolute;
+    top: 490.81px;
+    left: calc(50% - 459px);
+    display: inline-block;
+    width: 180px;
+    height: 32.3px;
+    transform:  rotate(-0.3deg);
+    transform-origin: 0 0;
+}
+.makanan-ringandashboard {
+    position: absolute;
+    top: 491.81px;
+    left: calc(50% - 124px);
+    display: inline-block;
+    width: 180px;
+    height: 32.3px;
+    transform:  rotate(-0.3deg);
+    transform-origin: 0 0;
+}
+.rp15000-rp50000 {
+    position: absolute;
+    top: 489.99px;
+    left: calc(50% + 237px);
+    display: inline-block;
+    width: 220.1px;
+    height: 32.3px;
+    transform:  rotate(-0.3deg);
+    transform-origin: 0 0;
+}
+.editdashboard {
+    position: absolute;
+    top: 489.36px;
+    left: calc(50% + 508px);
+    color: #ff8c00;
+    display: inline-block;
+    width: 81.4px;
+    height: 32.3px;
+    transform:  rotate(-0.3deg);
+    transform-origin: 0 0;
+    cursor: pointer;
+}
+.dasboard-umkm {
+    position: absolute;
+    top: 106px;
+    left: 540px;
+    font-size: 32px;
+    display: inline-block;
+    font-family: Montserrat;
+    color: #ff8c00;
+    width: 292px;
+    height: 60px;
+}
+
+
+/* end of dashboard */
+
+/* Detail Bika Ambon */
+.detail-kuliner-bika-ambon-child {
+    position: absolute;
+    top: 366px;
+    left: 45px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    width: 1340px;
+    height: 269px;
+}
+.detail-kuliner-bika-ambon-item {
+    position: absolute;
+    top: 661px;
+    left: 45px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    width: 1340px;
+    height: 269px;
+}
+.detail-kuliner-bika-ambon-inner {
+    position: absolute;
+    top: 956px;
+    left: 45px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    width: 1340px;
+    height: 269px;
+}
+.detail-rectangle-div {
+    position: absolute;
+    top: 1251px;
+    left: 45px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    width: 1340px;
+    height: 269px;
+}
+.detail-kuliner-bika-ambon-child1 {
+    position: absolute;
+    top: 1546px;
+    left: 45px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    width: 1340px;
+    height: 269px;
+}
+.detail-kuliner-bika-ambon-child2 {
+    position: absolute;
+    top: 1841px;
+    left: 45px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    width: 1340px;
+    height: 269px;
+}
+.detail-kuliner-bika-ambon-child3 {
+    position: absolute;
+    top: 2136px;
+    left: 45px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    width: 1340px;
+    height: 269px;
+}
+.detail-kuliner-bika-ambon-child4 {
+    position: absolute;
+    top: 2431px;
+    left: 45px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    width: 1340px;
+    height: 269px;
+}
+.detail-bika-ambon {
+    position: absolute;
+    top: 130px;
+    left: 596px;
+    font-size: 48px;
+    color: #000;
+}
+.bika-ambon-adalah {
+    position: absolute;
+    top: 236px;
+    right: 120px;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000;
+    text-align: center;
+    display: inline-block;
+    width: 1155px;
+    height: 104px;
+}
+.detail-bika-ambon-rian {
+    position: absolute;
+    top: 470px;
+    left: calc(50% - 241px);
+    display: inline-block;
+    color: #ff8c00;
+    text-align: center;
+    width: 333px;
+    height: 31px;
+}
+.detail-bika-ambon-ahun {
+    position: absolute;
+    top: 765px;
+    left: calc(50% - 241px);
+    display: inline-block;
+    color: #ff8c00;
+    text-align: center;
+    width: 351px;
+    height: 31px;
+}
+.detail-bika-ambon-rika {
+    position: absolute;
+    top: 1060px;
+    left: calc(50% - 241px);
+    display: inline-block;
+    color: #ff8c00;
+    text-align: center;
+    width: 333px;
+    height: 31px;
+}
+.detail-bika-ambon-santi {
+    position: absolute;
+    top: 1355px;
+    left: calc(50% - 241px);
+    display: inline-block;
+    color: #ff8c00;
+    text-align: center;
+    width: 351px;
+    height: 31px;
+}
+.detail-bika-ambon-nasywa {
+    position: absolute;
+    top: 1650px;
+    left: calc(50% - 241px);
+    display: inline-block;
+    color: #ff8c00;
+    text-align: center;
+    width: 414px;
+    height: 31px;
+}
+.detail-bika-ambon-zulaikha {
+    position: absolute;
+    top: 1945px;
+    left: calc(50% - 241px);
+    display: inline-block;
+    color: #ff8c00;
+    text-align: center;
+    width: 416px;
+    height: 31px;
+}
+.detail-bika-ambon-ambon {
+    position: absolute;
+    top: 2240px;
+    left: calc(50% - 255px);
+    display: inline-block;
+    color: #ff8c00;
+    text-align: center;
+    width: 501px;
+    height: 31px;
+}
+.detail-bika-ambon-gaja {
+    position: absolute;
+    top: 2535px;
+    left: calc(50% - 241px);
+    display: inline-block;
+    color: #ff8c00;
+    text-align: center;
+    width: 454px;
+    height: 31px;
+}
+
+
+.detail-kuliner-bika-ambon-child5 {
+    position: absolute;
+    top: 579px;
+    left: 1186px;
+    border-radius: 10px;
+    background-color: #ff8c00;
+    width: 185px;
+    height: 35px;
+}
+.detail-kuliner-bika-ambon-child6 {
+    position: absolute;
+    top: 874px;
+    left: 1186px;
+    border-radius: 10px;
+    background-color: #ff8c00;
+    width: 185px;
+    height: 35px;
+}
+.detail-kuliner-bika-ambon-child7 {
+    position: absolute;
+    top: 1169px;
+    left: 1186px;
+    border-radius: 10px;
+    background-color: #ff8c00;
+    width: 185px;
+    height: 35px;
+}
+.detail-kuliner-bika-ambon-child8 {
+    position: absolute;
+    top: 1464px;
+    left: 1186px;
+    border-radius: 10px;
+    background-color: #ff8c00;
+    width: 185px;
+    height: 35px;
+}
+.detail-kuliner-bika-ambon-child9 {
+    position: absolute;
+    top: 1759px;
+    left: 1186px;
+    border-radius: 10px;
+    background-color: #ff8c00;
+    width: 185px;
+    height: 35px;
+}
+.detail-kuliner-bika-ambon-child10 {
+    position: absolute;
+    top: 2054px;
+    left: 1186px;
+    border-radius: 10px;
+    background-color: #ff8c00;
+    width: 185px;
+    height: 35px;
+}
+.detail-kuliner-bika-ambon-child11 {
+    position: absolute;
+    top: 2349px;
+    left: 1186px;
+    border-radius: 10px;
+    background-color: #ff8c00;
+    width: 185px;
+    height: 35px;
+}
+.detail-kuliner-bika-ambon-child12 {
+    position: absolute;
+    top: 2644px;
+    left: 1186px;
+    border-radius: 10px;
+    background-color: #ff8c00;
+    width: 185px;
+    height: 35px;
+}
+.detail-selengkapnya {
+    position: absolute;
+    top: 584px;
+    left: 1201px;
+    font-size: 20px;
+    display: inline-block;
+    width: 175px;
+    height: 34px;
+    cursor: pointer;
+}
+.detail-selengkapnya1 {
+    position: absolute;
+    top: 879px;
+    left: 1201px;
+    font-size: 20px;
+    display: inline-block;
+    width: 175px;
+    height: 34px;
+}
+.detail-selengkapnya2 {
+    position: absolute;
+    top: 1174px;
+    left: 1201px;
+    font-size: 20px;
+    display: inline-block;
+    width: 175px;
+    height: 34px;
+}
+.detail-selengkapnya3 {
+    position: absolute;
+    top: 1469px;
+    left: 1201px;
+    font-size: 20px;
+    display: inline-block;
+    width: 175px;
+    height: 34px;
+}
+.detail-selengkapnya4 {
+    position: absolute;
+    top: 1764px;
+    left: 1201px;
+    font-size: 20px;
+    display: inline-block;
+    width: 175px;
+    height: 34px;
+}
+.detail-selengkapnya5 {
+    position: absolute;
+    top: 2059px;
+    left: 1201px;
+    font-size: 20px;
+    display: inline-block;
+    width: 175px;
+    height: 34px;
+}
+.detail-selengkapnya6 {
+    position: absolute;
+    top: 2354px;
+    left: 1201px;
+    font-size: 20px;
+    display: inline-block;
+    width: 175px;
+    height: 34px;
+}
+.detail-selengkapnya7 {
+    position: absolute;
+    top: 2649px;
+    left: 1201px;
+    font-size: 20px;
+    display: inline-block;
+    width: 175px;
+    height: 34px;
+}
+.detail1 {
+    position: absolute;
+    top: 388px;
+    left: 87px;
+    border-radius: 10px;
+    width: 346px;
+    height: 195px;
+    object-fit: cover;
+}
+.detail2 {
+    position: absolute;
+    top: 683px;
+    left: 88px;
+    border-radius: 10px;
+    width: 345px;
+    height: 195px;
+    object-fit: cover;
+}
+.detail3 {
+    position: absolute;
+    top: 979px;
+    left: 88px;
+    border-radius: 10px;
+    width: 345px;
+    height: 195px;
+    object-fit: cover;
+}
+.detail4 {
+    position: absolute;
+    top: 1274px;
+    left: 87px;
+    border-radius: 10px;
+    width: 345px;
+    height: 195px;
+    object-fit: cover;
+}
+.detail5 {
+    position: absolute;
+    top: 1557px;
+    left: 88px;
+    border-radius: 10px;
+    width: 344px;
+    height: 195px;
+    object-fit: cover;
+}
+.detail6 {
+    position: absolute;
+    top: 1852px;
+    left: 87px;
+    border-radius: 10px;
+    width: 345px;
+    height: 195px;
+    object-fit: cover;
+}
+.detail7 {
+    position: absolute;
+    top: 2154px;
+    left: 87px;
+    border-radius: 10px;
+    width: 344px;
+    height: 195px;
+    object-fit: cover;
+}
+.detail8 {
+    position: absolute;
+    top: 2449px;
+    left: 87px;
+    border-radius: 10px;
+    width: 344px;
+    height: 195px;
+    object-fit: cover;
+}
+.detail-kuliner-bika-ambon {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 2800px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 40px;
+    color: #fff;
+    font-family: Inter;
+}
+
+
+/* End of detail bika ambon */
+/* Detail UMKM */
+.mamank-kuliner {
+    position: absolute;
+    top: 448px;
+    left: calc(50% - 667px);
+    font-size: 20px;
+    display: none;
+    color: #d06e2b;
+    text-align: center;
+    width: 196px;
+    height: 33px;
+}
+.img-umkm {
+    position: absolute;
+    top: 24px;
+    left: 0px;
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+}
+.bika-ambon-rian-umkm {
+    position: absolute;
+    top: 591.85px;
+    left: calc(50% - 659px);
+    font-size: 50px;
+    display: inline-block;
+    font-family: Inter;
+    color: #ff8c00;
+    text-align: center;
+    width: 412.7px;
+    height: 67.2px;
+    transform:  rotate(-0.3deg);
+    transform-origin: 0 0;
+}
+.rp-35000 {
+    position: absolute;
+    top: 486px;
+    left: calc(50% + 335px);
+    font-size: 40px;
+    font-weight: 800;
+    display: inline-block;
+    width: 215px;
+    height: 50px;
+}
+.detail-umkm-child {
+    position: absolute;
+    top: 448.22px;
+    left: 1029px;
+    border-radius: 20px;
+    background-color: #6c655d;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 273px;
+    height: 11.5px;
+    transform:  rotate(-0.3deg);
+    transform-origin: 0 0;
+}
+
+.detail-umkm-item {
+    position: absolute;
+    top: 563px;
+    left: 1055px;
+    width: 215px;
+    height: 26px;
+}
+.untitled-1-1-icon {
+    position: absolute;
+    top: 602px;
+    left: 876px;
+    width: 29px;
+    height: 33px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.image-removebg-preview-7-1 {
+    position: absolute;
+    top: 711px;
+    left: 106px;
+    width: 30px;
+    height: 32px;
+    object-fit: cover;
+}
+.image-removebg-preview-8-1 {
+    position: absolute;
+    top: 671px;
+    left: 108px;
+    width: 26px;
+    height: 26px;
+    object-fit: cover;
+}
+.detail-umkm-inner {
+    position: absolute;
+    top: 616px;
+    left: 980px;
+    border-radius: 20px;
+    width: 168px;
+    height: 36px;
+}
+.lihat-ulasan {
+    position: absolute;
+    top: 619px;
+    left: 995px;
+    font-size: 24px;
+    display: inline-block;
+    font-family: Inter;
+    color: #fff;
+    width: 152px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #eb8a47;
+}
+.rectangle-icon {
+    position: absolute;
+    top: 617px;
+    left: 1194px;
+    border-radius: 20px;
+    width: 175px;
+    height: 31px;
+}
+.beri-ulasan {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    width: 148px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #eb8a47;
+}
+.beri-ulasan-wrapper {
+    position: absolute;
+    top: 619px;
+    left: 1213px;
+    width: 148px;
+    height: 49.9px;
+    font-size: 24px;
+    color: #fff;
+    font-family: Inter;
+}
+.divkontak {
+    position: absolute;
+    top: 723px;
+    left: calc(50% + 381px);
+    font-weight: 500;
+    display: inline-block;
+    width: 194px;
+    height: 30px;
+}
+.informasi-kontak {
+    position: absolute;
+    top: 678px;
+    left: 1055px;
+    font-size: 27px;
+    font-family: Inter;
+    color: #ff8c00;
+}
+.jl-sumatera-no78-umkm {
+    position: absolute;
+    top: 711px;
+    left: calc(50% - 556px);
+    font-weight: 500;
+    display: inline-block;
+    width: 589px;
+    height: 41px;
+}
+.bika-ambon-adalah-umkm {
+    position: absolute;
+    top: 779px;
+    left: calc(50% - 556px);
+    font-weight: 500;
+    display: inline-block;
+    width: 779px;
+    height: 41px;
+}
+.divjam {
+    position: absolute;
+    top: 669px;
+    left: calc(50% - 556px);
+    font-weight: 500;
+    display: inline-block;
+    width: 194px;
+    height: 30px;
+}
+.image-removebg-preview-9-1 {
+    position: absolute;
+    top: 767px;
+    left: 93px;
+    width: 56px;
+    height: 53px;
+    object-fit: cover;
+}
+.lihat-di-maps-container {
+    position: absolute;
+    top: 771px;
+    left: calc(50% + 345px);
+    display: inline-block;
+    text-align: center;
+    width: 194px;
+    height: 30px;
+    cursor: pointer;
+}
+.detail-umkm {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 955px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 23px;
+    color: #000;
+    font-family: Montserrat;
+}
+
+.rectangle-parent-umkm {
+    position: absolute;
+    top: 420px;
+    left: 951px;
+    box-shadow: 0px 9px 5px rgba(0, 0, 0, 0.25);
+    width: 435px;
+    height: 409px;
+    } 
+
+    .group-child-umkm {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background-color: #fff;
+        width: 435px;
+        height: 409px;
+        } 
+        
+.vector-icon {
+    position: absolute;
+    height: 5.48%;
+    width: 4.57%;
+    top: 75.06%;
+    right: 69.91%;
+    bottom: 19.46%;
+    left: 25.52%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    } 
+/* end of detail umkm */
+.petasumut{
+    top: 30px;
+}
+/* Profile User */
+@media screen {
+    .img-user{
+        position: absolute;
+        top: 73px;
+        left: 123px;
+        border-radius: 100px;
+        width: 183px;
+        height: 183px;
+    }
+    .Profil-user{
+        position: absolute;
+        top: 203px;
+        left: 339px;
+        right: 339px;
+        color: #FF8C00;
+        font-size: 40px;
+        font-family: Inter;
+        font-weight: 700;
+        word-wrap: break-word;
+        text-align: center;
+    }
+    .Favbtn-user button{
+        width: 113px; 
+        height: 35px; 
+        background: #FF8C00; 
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        border-radius: 30px;
+        color: white;
+        font-size: 20px;
+        font-family: Inter;
+        font-weight: 700;
+        word-wrap: break-word;
+        text-align: center;
+        position: absolute;
+        left: 1285px; 
+        top: 190px
+    }
+    .Form-user{
+        border-radius: 0px; 
+        position: absolute; 
+        left: 54px; 
+        width: 575px; 
+        top: 353px; 
+        height: 511px; 
+        position: relative;
+    }
+    .Nama-user{
+        color: #D06E2B; 
+        font-size: 32px; 
+        font-family: Inter; 
+        text-align: left; 
+        font-weight: 700; 
+        position: absolute; 
+        left: 10px; 
+        width: 552px; 
+        top: 0px; 
+        height: 56px;
+    }
+
+    .Email-user{
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        gap: 10px; 
+        padding: 10px; 
+        border-radius: 0px;
+        position: absolute; 
+        left: 0px; 
+        width: 105px; 
+        top: 126px; 
+        height: 59px;
+    }
+
+    .Nohp-user{
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        gap: 10px; 
+        padding: 10px; 
+        border-radius: 0px; 
+        position: absolute; 
+        left: 0px; 
+        width: 116px; 
+        top: 261px; 
+        height: 59px;
+    }
+
+    .spannomor{
+        color: #D06E2B; 
+        font-size: 32px; 
+        font-family: Inter; 
+        text-align: left; 
+        font-weight: 700;
+    }
+
+    .Input1-user{
+        border-radius: 0px; 
+        position: absolute; 
+        left: 10px; 
+        width: 535px; 
+        top: 56px; 
+        height: 62px;
+    }
+
+    .Inputbg1-user{
+        background: #FFFFFF; 
+        border-style: solid; 
+        border-color: #EB8A47; 
+        border-width: 1px; 
+        border-radius: 30px; 
+        position: absolute; 
+        left: 0px; 
+        width: 565px; 
+        top: 0px; 
+        height: 62px;
+    }
+
+    input[type=text-user]{
+        color: #000000; 
+        font-size: 24px; 
+        font-family: Inter; 
+        text-align: left; 
+        font-weight: 400; 
+        position: absolute; 
+        left: 9px; 
+        width: 279px; 
+        top: 15px; 
+        height: 32px;
+    }
+
+    .Input2-user{
+        border-style: solid; 
+        border-color: #EB8A47; 
+        border-width: 1px; 
+        border-radius: 0px; 
+        position: absolute; 
+        left: 10px; 
+        width: 535px; 
+        top: 192px; 
+        height: 62px;
+    }
+
+    .Inputbg2-user{
+        background: #FFFFFF; 
+        border-style: solid; 
+        border-color: #EB8A47; 
+        border-width: 1px; 
+        border-radius: 30px; 
+        position: absolute; 
+        left: 0px; 
+        width: 565px; 
+        top: 0px; 
+        height: 62px;
+    }
+
+    input[type=email-user]{
+        color: #000000; 
+        font-size: 24px; 
+        font-family: Inter; 
+        text-align: left; 
+        font-weight: 400; 
+        position: absolute; 
+        left: 9px; 
+        width: 327px; 
+        top: 15px; 
+        height: 32px;
+    }
+
+    .Input3-user{
+        border-style: solid; 
+        border-color: #EB8A47; 
+        border-width: 1px; 
+        border-radius: 0px; 
+        position: absolute; 
+        left: 10px; 
+        width: 535px; 
+        top: 320px; 
+        height: 62px;
+    }
+
+    .Inputbg3-user{
+        background: #FFFFFF; 
+        border-style: solid; 
+        border-color: #EB8A47; 
+        border-width: 1px; 
+        border-radius: 30px; 
+        position: absolute; 
+        left: 0px; 
+        width: 565px; 
+        top: 0px; 
+        height: 62px;
+    }
+
+    input[type=number-user]{
+        color: #000000; 
+        font-size: 24px; 
+        font-family: Inter; 
+        text-align: left; 
+        font-weight: 400; 
+        position: absolute; 
+        left: 9px; 
+        width: 214px; 
+        top: 15px; 
+        height: 32px;
+    }
+
+    .Form2-user{
+        border-radius: 0px; 
+        position: absolute; 
+        left: 801px; 
+        width: 575px; 
+        top: 354px; 
+        height: 410px; 
+    }
+
+    .Tempat-user{
+        color: #D06E2B; 
+        font-size: 32px; 
+        font-family: Inter; 
+        text-align: left; 
+        font-weight: 700; 
+        position: absolute; 
+        left: 10px; 
+        width: 552px; 
+        top: 0px; 
+        height: 56px;
+        position: absolute; left: 10px; width: 552px; top: 0px
+    }
+
+    .Tanggal-user{
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        gap: 10px; 
+        padding: 10px; 
+        border-radius: 0px; 
+        position: absolute; 
+        left: 0px; 
+        width: 232px; 
+        top: 126px; 
+        height: 59px;
+    }
+
+    .Jenis-user{
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        gap: 10px; 
+        padding: 10px; 
+        border-radius: 0px; 
+        position: absolute; 
+        left: 0px; 
+        width: 237px; 
+        top: 284px; 
+        height: 59px;
+    }
+
+    input[name='tempat-user']{
+        border-style: solid; 
+        border-color: #EB8A47; 
+        border-width: 1px; 
+        border-radius: 30px; 
+        position: absolute; 
+        left: 10px; 
+        width: 565px; 
+        top: 56px; 
+        height: 62px;
+        text-align: left;
+    }
+
+    input[name='tanggal-user']{
+        border-style: solid; 
+        border-color: #EB8A47; 
+        border-width: 1px; 
+        border-radius: 30px; 
+        position: absolute; 
+        left: 10px; 
+        width: 535px; 
+        top: 192px; 
+        height: 62px;
+    }
+
+    button[name='keluar-user']{
+        background: #FF8C00; 
+        border-radius: 10px; 
+        position: absolute; 
+        left: 39px; 
+        width: 208px; 
+        top: 911px; 
+        height: 69px;
+        color: white;
+        font-size: 25px;
+        font-family: Montserrat;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+
+    button[name='simpan-user']{
+        background: #FF8C00; 
+        border-radius: 10px; 
+        position: absolute; 
+        left: 1168px; 
+        width: 208px; 
+        top: 911px; 
+        height: 69px;
+        color: white;
+        font-size: 25px;
+        font-family: Montserrat;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+
+    .radio{
+        position: relative; 
+        left: 10px;
+        width: 565px;
+        height: 62px;
+        top: 346px;
+        align-items: flex-end;
+        flex-direction: row;
+        row-gap: 20px;
+        color: #D06E2B;
+        font-size: 32px;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word
+    }
+
+    input[name='laki-user']{
+        position: absolute; 
+        left: 20px; 
+        width: 33px; 
+        top: 349px; 
+        height: 33px;
+        align-content: baseline;
+    }
+    input[name='perempuan-user']{
+        position: absolute; 
+        left: 230px; 
+        width: 33px; 
+        top: 349px; 
+        height: 33px;
+    }
+    .Laki-user{
+        position: absolute;
+        top: 346px;
+        left: 63px;
+        color: #D06E2B;
+        font-size: 32px;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+    .Perempuan-user{
+        position: absolute;
+        top: 346px;
+        left: 276px;
+        color: #D06E2B;
+        font-size: 32px;
+        font-family: Inter;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
+}
+/* end of profile user */
